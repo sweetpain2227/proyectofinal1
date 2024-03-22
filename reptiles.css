@@ -1,0 +1,33 @@
+
+body {
+    font-family: 'courier', 'Gill Sans MT',  'Trebuchet MS', sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #a29dc9ee;
+    color: #fff;
+    text-align: left;
+    padding: 2px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #080a79;
+    padding: 16px;
+}
+nav a {
+    text-decoration: none;
+    color: #eeecec;
+}
+.gallery {
+    display: grid;
+    box-shadow: 1px 4px 4px #353663;
+    grid-template-columns: repeat(5px, 23px);
+    gap: 20px;
+}
+.gallery img {
+    max-width: 20%;
+    height: auto;
+}

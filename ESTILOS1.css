@@ -1,0 +1,57 @@
+
+body {
+    background-color: #f0f8ff; /* Color de fondo claro */
+    font-family: 'Arial', sans-serif; /* Tipo de letra para el contenido */
+  }
+  
+  /* Estilo del contenedor principal */
+  .container {
+    width: 80%;
+    margin: 0 auto; /* Centra el contenedor */
+    background-color: #ffffff; /* Fondo blanco para el contenido */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  }
+  
+  /* Estilo del encabezado */
+  .header {
+    text-align: center; /* Centra el texto del encabezado */
+    padding: 10px 0;
+  }
+  
+  /* Estilo del título */
+  h1 {
+    color: #333366; /* Color oscuro para el título */
+  }
+  
+  /* Estilo de la imagen del animal */
+  .animal-image {
+    display: block;
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que el contenedor */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+    margin: 0 auto; /* Centra la imagen */
+  }
+  
+  /* Estilo del texto descriptivo */
+  .description {
+    color: #666666; /* Color gris para el texto */
+    line-height: 1.6; /* Espaciado entre líneas para mejorar la legibilidad */
+  }
+  
+  /* Cambio de fondo al pasar el ratón */
+  .container:hover {
+    background-color: #e6e6fa; /* Cambia el color de fondo al pasar el ratón */
+  }
+  
+  /* Estilo de los enlaces para más información */
+  a {
+    color: #0000ff; /* Color azul para los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Subraya los enlaces al pasar el ratón */
+  }
+  
+  /* ...puedes agregar más estilos según necesites... */
+  
